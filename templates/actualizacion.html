@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Actualizar Producto</title>
+  <link rel="stylesheet" href="/static/login.css"> 
+</head>
+<body>
+  <h1>Actualizar Producto</h1>
+
+  <div id="mensaje-actualizar"></div> 
+
+  <form id="formulario-producto">
+    <div>
+      <label for="producto">Producto:</label>
+      <select id="producto" name="producto_id">
+        </select>
+    </div>
+    <div>
+      <label for="descripcion">Descripción:</label>
+      <input type="text" id="descripcion" name="descripcion">
+    </div>
+    <div>
+      <label for="precio">Precio:</label>
+      <input type="number" id="precio" name="precio" required>
+    </div>
+    <div>
+      <label for="color">Color:</label>
+      <input type="color" id="color" name="color" value="#ffffff">
+    </div>
+    <div>
+      <label for="categoria">Categoría:</label>
+      <select id="categoria" name="categoria_id">
+      </select>
+    </div>
+    <button type="submit">Actualizar Producto</button>
+  </form>
+
+  <script src="/static/actualizacion.js"></script> </body>
+</html>

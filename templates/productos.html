@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gestión de Productos</title>
+  <link rel="stylesheet" href="/static/login.css"> 
+</head>
+<body>
+  <h1>Gestión de Productos</h1>
+
+  <h2>Agregar Nuevo Producto</h2>
+  <form id="formulario-producto">
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div>
+      <label for="descripcion">Descripción:</label>
+      <input type="text" id="descripcion" name="descripcion">
+    </div>
+    <div>
+      <label for="precio">Precio:</label>
+      <input type="number" id="precio" name="precio" required>
+    </div>
+    <div>
+      <label for="color">Color:</label>
+      <input type="color" id="color" name="color" value="#ffffff">
+    </div>
+    <div>
+      <label for="categoria">Categoría:</label>
+      <select id="categoria" name="categoria_id">
+      </select>
+    </div>
+    <button type="submit">Agregar Producto</button>
+  </form>
+  <script src="/static/productos.js"></script>
+</body>
+</html>
